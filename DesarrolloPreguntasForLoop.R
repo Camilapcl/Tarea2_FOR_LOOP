@@ -35,7 +35,7 @@ micro_colombia <- cbind(micro_colombia, tamanio=nivelUno)
 #####################################################################################################################################################################################################################################
 # 2) Reuna todas las bases en una sola y defina de qué tipología (tipo de datos) son cada una de las variables que se encuentran en la data.(1 pto)
 
-# No se pueden reunion las bases de datos por que no tiene el mismo nombre de una variable. Se cambia el nombre.
+# No se pueden reunir las bases de datos por que no tiene el mismo nombre de una variable. Se cambia el nombre.
 install.packages("dplyr")
 library("dplyr")
 pequena_peru <- rename(pequena_peru, porcentaje_mujeres = procentaje_mujeres)
