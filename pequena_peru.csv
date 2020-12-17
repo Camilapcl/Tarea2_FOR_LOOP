@@ -1,4 +1,4 @@
-fecha;pais;ingresos;costos;procentaje_muejeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
+fecha;pais;ingresos;costos;procentaje_mujeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
 01-05-2012;peru;14,0194;3,304;0,5554;1,9725;1,964;0,7193;0,0536;1,351;0,1354;0,1551
 01-06-2012;peru;14,2526;3,323;0,5562;1,9722;1,968;0,7209;0,0529;0,88;0,1349;0,1556
 01-07-2012;peru;13,5501;3,297;0,553;1,9739;1,958;0,7213;0,0545;0,897;0,1322;0,1544

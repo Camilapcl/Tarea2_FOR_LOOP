@@ -1,4 +1,4 @@
-fecha;pais;ingresos;costos;procentaje_muejeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
+fecha;pais;ingresos;costos;porcentaje_mujeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
 01-05-2012;colombia;26,6286;2,6533;0,40532;2,24239;1,4321;0,61369;0,04499;1,7818;0,07023;0,1229
 01-06-2012;colombia;25,9401;2,5323;0,39491;2,24034;1,4088;0,60937;0,04569;2,3864;0,06878;0,1218
 01-07-2012;colombia;27,2383;2,6412;0,42059;2,21579;1,4709;0,60889;0,04667;2,8498;0,06639;0,1199

@@ -35,6 +35,17 @@ micro_colombia <- cbind(micro_colombia, tamanio=nivelUno)
 #####################################################################################################################################################################################################################################
 # 2) Reuna todas las bases en una sola y defina de qué tipología (tipo de datos) son cada una de las variables que se encuentran en la data.(1 pto)
 
+# No se pueden reunion las bases de datos por que no tiene el mismo nombre de una variable. Se cambia el nombre.
+install.packages("dplyr")
+library("dplyr")
+pequena_peru <- rename(pequena_peru, porcentaje_mujeres = procentaje_mujeres)
+micro_chile <- rename(micro_chile, porcentaje_mujeres = procentaje_muejeres)
+medianas_chile <- rename(medianas_chile, porcentaje_mujeres = procentaje_mujeres)
+medianas_peru <- rename(medianas_peru, porcentaje_mujeres = procentaje_muejeres)
+grandes_chile <- rename(grandes_chile, porcentaje_mujeres = procentaje_mujeres)
+grandes_colombia <- rename(grandes_colombia, porcentaje_mujeres = procentaje_mujeres)
+grandes_peru <- rename(grandes_peru, porcentaje_mujeres = procentaje_muejeres) 
+
 ## Se reúne la base de datos como un uno común, con un vector.
 conjuntoDeBasesEnUno<- rbind(grandes_chile, grandes_colombia, grandes_peru, medianas_chile, medianas_colombia, medianas_peru, micro_chile, micro_colombia, micro_peru, pequena_chile, pequena_colombia, pequena_peru)
 
@@ -218,8 +229,4 @@ pais <- c("peru","chile","colombia")
 
 ## Se construye el vector que diseña el grafico.
 barplot(names.arg = pais, height = endeudamiento, main = "Nivel de endeudamiento de algunos paises latinoamericanos", sub = "Paises: Peru, Chile y Colombia", xlab = "Pais", ylab = "Nivel de endeudamiento")
-
-
-
-
 
