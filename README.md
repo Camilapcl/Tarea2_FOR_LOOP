@@ -3,7 +3,7 @@
 # 1) Cargue las bases de datos incorporado en cada una de ellas la variable "tamanio",donde indique de que tamaño es la empresa de ese país.(1 pto)
 
 ## Se instalan paquetes para cargar la base de dato.
-## Se cargan los archivos en "Import Dataset" con "Fron text (base).
+## Se cargan los archivos en "Import Dataset" con "From text (base).
 install.packages('readr')
 library('readr')
 install.packages("csv")
