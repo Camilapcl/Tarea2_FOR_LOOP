@@ -1,4 +1,4 @@
-fecha;pais;ingresos;costos;porcentaje_mujeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
+fecha;pais;ingresos;costos;procentaje_muejeres;exportaciones;importaciones;endeudamiento;morosidad;reservas;spread;tasa_interes
 01-05-2012;chile;12,7472;2,0084;0,40091;2,25967;1,315;0,47351;0,0775;2,0728;0,0921;0,1405
 01-06-2012;chile;12,9094;2,0065;0,40105;2,25921;1,3154;0,47655;0,0776;2,0586;0,0899;0,139
 01-07-2012;chile;13,05194;2,0432;0,40376;2,25757;1,3199;0,48053;0,0778;2,0601;0,0912;0,1406
